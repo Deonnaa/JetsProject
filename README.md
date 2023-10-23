@@ -11,7 +11,9 @@ Hi, I'm Deonna, a passionate new coding student and the creator of this Java pro
 I developed this program as part of my coding journey and to help users discover the world of Jets! I hope it proves helpful to others as they embark on their coding adventures too. If you have any questions, suggestions, or just want to connect, please don't hesitate to reach out. Let's learn and code together!
 
 ## Description
-The Food Truck Rating App is a Java program that allows users to interactively explore and rate various food trucks. Developed as a hands-on learning project, this application demonstrates the fundamental concepts of Java programming and user input processing.
+The Jets Application is a Java program designed for managing and exploring a fleet of jets. Developed as a hands-on project, this application demonstrates core Java programming concepts, including object-oriented programming, user input processing, and file handling.
+
+With the Jets Application, users can interactively manage their fleet of jets, which can include different types of aircraft, such as cargo jets, fighter jets, and passenger jets. This program allows users to perform various operations on their fleet, including adding and removing jets, listing all jets, calculating flight times, identifying the fastest jet, and more.
 
 ## How to Use
 1. Clone this Git repository to your local machine.
