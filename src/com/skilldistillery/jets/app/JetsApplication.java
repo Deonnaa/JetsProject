@@ -142,7 +142,7 @@ public class JetsApplication {
 		for (Jet jet : fleet) {
 			System.out.println("Jet Details: ");
 			System.out.println(jet);
-			System.out.printf("Flight Time: %.2f%n", (double) jet.getRange() / jet.getSpeed());
+			System.out.printf("Flight Time: %.2f hours%n", (double) jet.getRange() / jet.getSpeed());
 
 			if (jet instanceof CargoJet) {
 				((CargoJet) jet).fly(); // Call CargoJet's fly() method
