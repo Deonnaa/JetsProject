@@ -55,7 +55,7 @@ With the Jets Application, users can interactively manage their fleet of jets, w
   - 1: Model: XYZ CargoMaster, Type: CargoJet, Speed: 550.0 mph, Range: 4000 miles, Price: $15,000,000.00
   - 2: Model: Delta Fighter, Type: FighterJet, Speed: 1500.0 mph, Range: 800 miles, Price: $10,000,000.00
   - 3: ....
-  - [Pick 2]
+  - [2]
   - Jet removed from the fleet:
   - Model: Delta Fighter
   - Type: FighterJet
