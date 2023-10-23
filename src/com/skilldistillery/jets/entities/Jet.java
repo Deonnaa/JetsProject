@@ -2,27 +2,23 @@ package com.skilldistillery.jets.entities;
 
 public abstract class Jet {
 	private String model;
-	private double speed;
-	private int range;
+	private double speedMph;
+	private int rangeMiles;
 	private long price;
+	private double flightTime;
 
 	public Jet() {
-		
+
 	}
-	
-	public Jet(String model, double speed, int range, long price) {
+
+	public Jet(String model, double speedMph, int rangeMiles, long price) {
 		this.model = model;
-		this.speed = speed;
-		this.range = range;
+		this.speedMph = speedMph;
+		this.rangeMiles = rangeMiles;
 		this.price = price;
 	}
-	
+
 	public abstract void fly();
-	
-	public double getSpeedInMach(double mach) {
-		//??		
-		return mach;
-	}
 
 	public String getModel() {
 		return model;
@@ -33,19 +29,19 @@ public abstract class Jet {
 	}
 
 	public double getSpeed() {
-		return speed;
+		return speedMph;
 	}
 
-	public void setSpeed(double speed) {
-		this.speed = speed;
+	public void setSpeed(double speedMph) {
+		this.speedMph = speedMph;
 	}
 
 	public int getRange() {
-		return range;
+		return rangeMiles;
 	}
 
-	public void setRange(int range) {
-		this.range = range;
+	public void setRange(int rangeMiles) {
+		this.rangeMiles = rangeMiles;
 	}
 
 	public long getPrice() {
@@ -58,9 +54,8 @@ public abstract class Jet {
 
 	@Override
 	public String toString() {
-		return "Jet [model=" + model + ", speed=" + speed + ", range=" + range + ", price=" + price + "]";
+		return "[Jet Model: " + model + ", Speed: " + speedMph + "mph, Range: " + rangeMiles + "miles, Price: $" + price
+				+ "]";
 	}
-	
-	
 
 }

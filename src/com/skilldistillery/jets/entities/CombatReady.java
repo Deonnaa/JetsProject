@@ -1,5 +1,5 @@
 package com.skilldistillery.jets.entities;
 
-public class CombatReady {
-
+public interface CombatReady {
+	void shootTarget();
 }
